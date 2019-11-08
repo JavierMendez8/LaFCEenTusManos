@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.LaFCE.vistas.FceFragment" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mision:"
+                android:textColor="#F50A0A0A"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Formar profesionales competentes, con pensamiento crítico, iniciativa emprendedora, vocación científica y compromiso social, a través de un proyecto educativo centrado en el estudiante e inspirado en las exigencias regionales, nacionales e internacionales."
+                android:textColor="#F80A0A0A"
+                android:textSize="18sp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vision:"
+                android:textColor="#030303"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Somos una institución transformadora comprometida con la ética, centrada en los estudiantes, y de referencia en lo académico, en la gestión, en la investigación y en la extensión, que forma egresados reconocidos dentro y fuera la de argentina."
+                android:textColor="#FC090808"
+                android:textSize="18sp"
+                android:layout_marginLeft="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
